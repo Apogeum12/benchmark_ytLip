@@ -3,7 +3,8 @@ Multicore cpu Benchmark. In plan is the gpu version.
 ## Installation
 Windows:
 - Install [Anaconda](https://www.anaconda.com/distribution/) with jupyterLab
-- Install package [pyTorch](https://pytorch.org/get-started/locally/) In "Anaconda Powershell Prompt"
+- All packages install in "Anaconda Powershell Prompt":
+- Install package [pyTorch](https://pytorch.org/get-started/locally/) 
 ```bash
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
