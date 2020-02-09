@@ -2,14 +2,14 @@
 Multicore cpu Benchmark. In plan is the gpu version. 
 ## Installation
 Windows:
-- Install Anaconda (https://www.anaconda.com/distribution/) jupyterLab
+- Install [Anaconda](https://www.anaconda.com/distribution/) with jupyterLab
+- Install package [pyTorch](https://pytorch.org/get-started/locally/) In "Anaconda Powershell Prompt"
+```bash
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+```
 - Install package Scipy [pip](https://pypi.org/project/scipy/)
 ```bash
 pip install scipy
-```
-- Install package [pyTorch](https://pytorch.org/get-started/locally/) In Anaconda powershell prompt
-```bash
-conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ```
 - Install package torch [ODE Solvers](https://github.com/rtqichen/torchdiffeq)
 ```bash
