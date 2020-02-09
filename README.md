@@ -3,8 +3,8 @@ Simulating Neuron from  model Hodgkin–Huxley with help [ODE Solver](https://gi
 ## Frist Version is as jupyter Notebook
 Plan
 - Notebook cpu version (DONE)
-- Shell Script
-- Support gpu
+- Shell Script (In Progress)
+- Support gpu (DONE)
 - App Linux
 - App Windows
 - ...
