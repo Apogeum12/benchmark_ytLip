@@ -1,5 +1,5 @@
-# benchmark_ytLip
-Simulating Neuron from  model Hodgkin–Huxley with help [ODE Solver](https://github.com/rtqichen/torchdiffeq).
+# Benchmark simulating biological Neuron Model:
+Multicore cpu and gpu Benchmark. But in fact it is simulation hodgkin huxley model neuron. Where for computing Ordinary Differential Equations i used Differentiable ODE solver method.
 ## Frist Version is as jupyter Notebook
 Plan
 - Notebook cpu version (DONE)
