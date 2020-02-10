@@ -1,5 +1,5 @@
 # Benchmark simulating biological Neuron Model:
-Multicore cpu Benchmark. In plan is the gpu version. 
+Multicore cpu and gpu Benchmark. But in fact it is simulation hodgkin huxley model neuron. Where for computing Ordinary Differential Equations i used Differentiable ODE solver method.
 ## Installation
 Windows:
 - Install [Anaconda](https://www.anaconda.com/distribution/) with jupyterLab
