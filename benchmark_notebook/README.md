@@ -1,8 +1,6 @@
-# Benchmark simulating biological Neuron Model:
-Multicore cpu Benchmark. In plan is the gpu version. 
-## Installation
+# Installation
 Windows:
-- Install [Anaconda](https://www.anaconda.com/distribution/) with jupyterLab
+- Install [Anaconda](https://www.anaconda.com/distribution/) Python 3.7 
 - All packages install in "Anaconda Powershell Prompt":
 - Install package [pyTorch](https://pytorch.org/get-started/locally/) 
 ```bash
@@ -16,13 +14,8 @@ pip install scipy
 ```bash
 pip install git+https://github.com/rtqichen/torchdiffeq
 ```
-## Usage
+Linux:
 
-TODO:
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-## License
-TODO: 
