@@ -37,23 +37,24 @@ def point(test_score):
 
 def potential_plot(input, time_step, dt):
     t = torch.arange(0.0, time_step, dt)
-    plt.subplots(figsize=(30, 7)) 
+    plt.subplots(figsize=(20, 5)) 
     plt.title('Hodgkin-Huxley Neuron Membrane Potencial') 
     plt.plot(t.cpu(), input[0].cpu(), 'c')
     plt.ylabel('V (mV)')
     plt.xlabel('s (1e-1 s)')
-    plt.savefig('Membrane_Potencial.png')
+    plt.savefig('img/Membrane_Potencial.png')
     plt.show()
 
 def channel_plot(input, time_step, dt):
     t = torch.arange(0.0, time_step, dt)
+    plt.subplots(figsize=(20, 5))
     plt.title('Hodgkin-Huxley Neuron Channel Plot') 
     plt.plot(t.cpu(), input[1].cpu().detach().numpy(), 'k')
     plt.plot(t.cpu(), input[2].cpu().detach().numpy(), 'c')
     plt.plot(t.cpu(), input[3].cpu().detach().numpy(), 'b')
     plt.ylabel('V (mV)')
     plt.xlabel('s (1e-1 s)')
-    plt.savefig('Membrane_Channel.png')
+    plt.savefig('img/Membrane_Channel.png')
     plt.show()
 
 
@@ -89,3 +90,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#TODO: Creating Virtual Environments
