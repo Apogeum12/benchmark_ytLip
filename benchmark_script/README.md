@@ -3,19 +3,19 @@ Benchmark in script version
 ## Installation
 For Linux Version:
 - In Directly benchmark_ytLip/
-'''bash
+```bash
 sudo apt install python3-venv
 python3 -m venv benchmark_script
 source benchmark_script/bin/activate 
-'''
+```
 - Install backend for matplotlib
-'''bash
+```bash
 sudo apt install python3-tk
-'''
+```
 - Install Environment
-'''bash
+```bash
 pip3 install -r requirements.txt
-'''
+```
 ### Run:
 In directly folder benchmark_script
 - [--h] Num Hiden Neuron; [--i] Num input Size; [--d] Device choice; [--t] Test Size
