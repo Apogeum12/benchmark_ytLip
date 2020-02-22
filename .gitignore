@@ -1,8 +1,9 @@
 # Ignere vscode Extension File
 *.vscode
+*/__pycache/*
 */bin/
 */include/
 */lib/
-*/lib64/
+lib64
 */share/
-*.cfg
+/*.cfg
