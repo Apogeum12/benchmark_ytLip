@@ -1,8 +1,6 @@
-from __future__ import print_function
 import torch, argparse, time, matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
-matplotlib.matplotlib_fname()
 
 from Neuron_Model import SNN
 

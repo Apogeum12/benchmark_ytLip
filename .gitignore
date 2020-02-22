@@ -1,0 +1,8 @@
+# Ignere vscode Extension File
+*.vscode
+*/bin/
+*/include/
+*/lib/
+*/lib64/
+*/share/
+*.cfg
