@@ -7,3 +7,4 @@ sudo python3 -m venv benchmark_script
 
 echo "====> Activate Environment ..."
 sudo source benchmark_script/bin/activate
+sudo bash pkg.sh
