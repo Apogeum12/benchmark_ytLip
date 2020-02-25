@@ -3,23 +3,22 @@ Multicore cpu and gpu Benchmark. But in fact it is simulation hodgkin huxley mod
 ## First Version is as jupyter Notebook
 Download or clone repository, open directory benchmark_notebook and open  bench.ipynb in jupyterLab in the Anaconda app.
 ## Script
-# Benchmark_script
 Benchmark in script version
-## Installation
+- Installation
 For Linux Version:
 - In Directly benchmark_ytLip/
 ```bash
 sudo apt install python3-venv
+```
+``` bash
 python3 -m venv benchmark_script
+```
+``` bash
 source benchmark_script/bin/activate 
 ```
-- Install backend for matplotlib
-```bash
-sudo apt install python3-tk
-```
-- Install Environment
-```bash
-pip3 install -r requirements.txt
+Run install script:
+``` bash 
+bash install.sh
 ```
 ### Run:
 In directly folder benchmark_script
