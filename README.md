@@ -16,9 +16,16 @@ python3 -m venv benchmark_script
 ``` bash
 source benchmark_script/bin/activate 
 ```
-Run install script:
+Install package:
 ``` bash 
-bash install.sh
+pip3 -r package.txt
+```
+``` bash
+ sudo apt install python3-tk 
+```
+Install torchdiffeq
+``` bash
+pip3 install git+https://github.com/rtqichen/torchdiffeq
 ```
 ### Run:
 In directly folder benchmark_script
