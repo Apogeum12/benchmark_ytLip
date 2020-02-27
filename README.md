@@ -34,7 +34,7 @@ Benchmark in script version for Windows:
 ### Run:
 In directly folder benchmark_script
 - [--h] Num Hiden Neuron; [--i] Num input Size; [--d] Device choice; [--t] Test Size
-- If Dont put Neuron Hidden num then Hiden is equal 2 * sqrt(Input_size)
+- If Dont put Neuron Hidden num then Hidden_size is equal $2 * sqrt(Input_size)$
 ```bash
 python3 bench.py --i 2048 --d cpu --t 10
 ## Plan
