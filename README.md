@@ -1,7 +1,5 @@
 # Benchmark simulating biological Neuron Model:
 Multicore cpu and gpu Benchmark. But in fact it is simulation hodgkin huxley model neuron. Where for computing Ordinary Differential Equations i used Differentiable ODE solver method.
-## First Version is as jupyter Notebook
-Download or clone repository, open directory benchmark_notebook and open  bench.ipynb in jupyterLab in the Anaconda app.
 ## Script
 Benchmark in script version for Linux:
 #### Installation
@@ -28,7 +26,10 @@ pip3 install git+https://github.com/rtqichen/torchdiffeq
 ```
 Benchmark in script version for Windows:
 #### Installation
-- In Directly benchmark_ytLip/
+(IN PROGRESS)
+
+## APP verssion
+(IN PROGRESS)
 
 ### Run:
 In directly folder benchmark_script
