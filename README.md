@@ -3,9 +3,8 @@ Multicore cpu and gpu Benchmark. But in fact it is simulation hodgkin huxley mod
 ## First Version is as jupyter Notebook
 Download or clone repository, open directory benchmark_notebook and open  bench.ipynb in jupyterLab in the Anaconda app.
 ## Script
-Benchmark in script version
-- Installation
-For Linux Version:
+Benchmark in script version for Linux:
+#### Installation
 - In Directly benchmark_ytLip/
 ```bash
 sudo apt install python3-venv
@@ -27,6 +26,10 @@ Install torchdiffeq
 ``` bash
 pip3 install git+https://github.com/rtqichen/torchdiffeq
 ```
+Benchmark in script version for Windows:
+#### Installation
+- In Directly benchmark_ytLip/
+
 ### Run:
 In directly folder benchmark_script
 - [--h] Num Hiden Neuron; [--i] Num input Size; [--d] Device choice; [--t] Test Size
@@ -36,7 +39,7 @@ python3 bench.py --i 2048 --d cpu --t 10
 ## Plan
 - Notebook cpu version (DONE)
 - Support gpu (DONE)
-- Shell Script (In Progress)
-- App Linux
+- Shell Script (Done)
+- App Linux (In progress)
 - App Windows
 - ...
