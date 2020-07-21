@@ -28,7 +28,7 @@ Benchmark in script version for Windows:
 #### Installation
 (IN PROGRESS)
 
-## APP verssion
+## App verssion
 Maybe in future ^ ^
 
 ### Run:
