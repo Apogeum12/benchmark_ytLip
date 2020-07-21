@@ -29,7 +29,7 @@ Benchmark in script version for Windows:
 (IN PROGRESS)
 
 ## APP verssion
-(IN PROGRESS)
+Maybe in future ^ ^
 
 ### Run:
 In directly folder benchmark_script
